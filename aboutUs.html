@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>BisLite - Home</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+
+</head>
+<body>
+
+<div id="header">
+
+    <div class="container">
+        <!--logo-->
+        <h1><a href="index.html">Logo</a></h1>
+
+        <div id="main_menu">
+
+            <ul>
+                <!-- home -->
+                <li class="first_list"><a href="index.html" class="main_menu_first main_current">home</a></li>
+                <!-- About us -->
+                <li class="first_list"><a href="aboutUs.html" class="main_menu_first">About Us</a></li>
+                <!-- This is the whole drop down menu for courses-->
+                <li class="first_list with_dropdown">
+                    <a href="courses.html"  class="main_menu_first">Courses</a>
+                    <ul>
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/undergraduate" class="main_menu_second">Undergraduate </a></li>
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/postgraduate" class="main_menu_second">Postgraduate</a></li>
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/research/graduate-school/applying-for-a-research-degree/funded-studentship-opportunities" class="main_menu_second">Research</a></li>
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/part-time-learning" class="main_menu_second">Part Time</a></li>
+                        <li class="second_list"><a href="http://www.rgu.ac.uk/computingshortcourses" class="main_menu_second">Short courses</a></li>
+                    </ul>
+                </li>
+
+                <li class="first_list"><a href="#" class="main_menu_first">News</a></li>
+                <li class="first_list"><a href="contact.html" class="main_menu_first">Contact us</a></li>
+            </ul>
+
+        </div> <!-- END #main_menu -->
+
+    </div> <!-- END .container -->
+
+</div> <!-- END #header -->
+
+<div id="main_content">
+
+    <div id="slideshow_area">
+
+        <div class="container">
+
+            <div id="slideshow_container">
+
+                <div class="slideshow_pagination">
+                    <img class="mySlides" src="images/rguUni%20graduate.jpg" style="width:100%">
+                    <img class="mySlides" src="images/OpenDay.jpg" style="width:100%">
+                    <img class="mySlides" src="images/Top-UK-Uni-Large-Homepage-ODLb.jpg" style="width:100%">
+                    <img class="mySlides" src="images/Top-UK-Uni-Large-Homepage-UG-Get-Ahead.jpg" style="width:100%">
+                    <img class="mySlides" src="images/Top-UK-Uni-Graduate-Employment-Hub-Computing.jpg" style="width:100%">
+                </div>
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}
+                        x[myIndex-1].style.display = "block";
+                        setTimeout(carousel, 3000); // Change image every 2 seconds
+                    }
+                </script>
+
+            </div> <!-- END #slideshow_container -->
+
+        </div> <!-- END .container -->
+
+    </div> <!-- END #slideshow_area -->
+
+
+    <div class="container">
+        <br>
+        <br>
+        <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/d_p3TUY572g" frameborder="0" allowfullscreen></iframe>
+
+
+        <div id="AboutUs">
+             <h3> About Us</h3>
+                <p style="font-size:20px ">The School of Computing Science and Digital Media courses develop skills and expertise for a wide range of Computing technologies and target applications.</p>
+                    <br>
+                <p style="font-size:20px "> The School has an excellent reputation for its innovative and practical approaches to teaching and learning. For generations it has produced qualified professionals across a broad spectrum of technical careers with graduates in high profile, international roles. Our applied approach to the subject ensures our graduate employment rate remains one of the best in the UK. We have recently been recognised as the best new university in the UK for computing (Times Good University Guide 2009 and 2010). Our courses are recognised by the BCS – the Chartered Institute for IT.</p>
+                    <br>
+                <p style="font-size:20px ">Strong links with industry ensure that courses are constantly updated plus many are introduced as a direct response to changes in the marketplace. Our world-class research is often in direct collaboration with industry, including major oil, pharmaceutical, and software companies.</p>
+                    <br>
+                    <br>
+        </div>
+
+        <div id ="twitter" >
+            <br>
+            <br>
+                <p> Wanker</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+</div>
+
+    </div>
+
+</div><!-- end of container -->
+    </div> <!-- END #main_content -->
+
+
+<div id="footer">
+
+    <div class="container">
+
+        <div id="footer_about" class="footer_info">
+
+            <h4>about us</h4>
+           <p>The School of Computing Science and Digital Media – Robert Gordon University in Aberdeen, Scotland has an excellent reputation for its innovative and practical approaches to teaching and learning. This site contains news and events happening around and about the School. </p>
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_explore" class="footer_info">
+
+            <h4>explore</h4>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_browse" class="footer_info">
+
+            <h4>browse</h4>
+            <ul>
+                <li><a href="#">careers</a></li>
+                <li><a href="#">press &amp; media</a></li>
+                <li><a href="contact.html">contact us</a></li>
+                <li><a href="#">terms of service</a></li>
+                <li><a href="#">privacy policy</a></li>
+            </ul>
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_contact" class="footer_info">
+
+            <h4>contact us</h4>
+            <p><span class="bold_text">BisLite Inc.</span>
+                <br />
+                Always Street 265
+                <br />
+                0X - 125 - Canada
+                <br />
+                <br />
+                Phone: 987-6543-210
+                <br />
+                Fax: 987-6543-210</p>
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_connect" class="footer_info">
+
+            <h4>connect with us</h4>
+
+            <ul>
+                <li><a href="#" id="facebook" title="Facebook">Facebook</a></li>
+                <li><a href="#" id="linkedin" title="LinkedIn">LinkedIn</a></li>
+
+
+            </ul>
+
+        </div> <!-- END #footer_about -->
+
+
+
+
+
+    </div> <!-- END .container -->
+
+</div> <!-- END #footer -->
+
+</body>
+</html>
