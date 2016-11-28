@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>BisLite - Home</title>
+    <title>RGU Computing - Home</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
     
@@ -64,15 +64,15 @@
                     carousel();
 
                     function carousel() {
-                        var i;
+
                         var x = document.getElementsByClassName("mySlides");
-                        for (i = 0; i < x.length; i++) {
+                        for (var i = 0; i < x.length; i++) {
                             x[i].style.display = "none";
                         }
                         myIndex++;
                         if (myIndex > x.length) {myIndex = 1}
                         x[myIndex-1].style.display = "block";
-                        setTimeout(carousel, 3000); // Change image every 2 seconds
+                        setTimeout(carousel, 3000); // Change image every 3 seconds
                     }
                 </script>
             </div> <!-- END #slideshow_container -->

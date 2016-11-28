@@ -24,7 +24,7 @@ body {
 
 #header {
     background: #e8ebf1;
-    height: 120px;
+    height: 150px;
 }
 
 h1 {
@@ -48,6 +48,11 @@ h1 a {
     float: right;
     margin-top: 54px;
 }
+#searchBar {
+    float: right;
+    margin: 25px 0 10px 0;
+}
+
 
 .first_list {
     float: left;
@@ -123,6 +128,53 @@ h1 a {
 }
 
 /* ----- Main Navigation Styling ----- */
+/* ----- Main content for courses --- */
+#p {
+    border-bottom: 6px solid #960089;
+    background-color: #b4bac5;
+}
+
+.courses {
+
+    height: 215px;
+    width: 253px;
+    float: left;
+    font-size: 13px;
+    margin: 15px;
+    padding: 25px 20px 12px 26px;
+    background-color: #960089;
+}
+
+.courses  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    height: 335px;
+    padding:25px 0 0 0;
+    color: white;
+    text-align: right;
+}
+
+.courses  p {
+    color: #363636;
+    line-height: 20px;
+    margin-bottom: 22px;
+}
+
+.courses  a {
+    color: #960089;
+}
+
+.courses  a img {
+    margin: 0 8px 1px 0;
+}
+
+.courses  a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
 /* ----- Slideshow Styling ----- */
 
@@ -272,70 +324,6 @@ h1 a {
 
 #carousel_wrapper li:hover a img, #portfolio_list li:hover a img {
     visibility: visible;
-}
-
-#work01 {
-    background: url(../images/latest_work01.jpg) no-repeat;
-}
-
-#work02 {
-    background: url(../images/latest_work02.jpg) no-repeat;
-}
-
-#work03 {
-    background: url(../images/latest_work03.jpg) no-repeat;
-}
-
-#work04 {
-    background: url(../images/latest_work04.jpg) no-repeat;
-}
-
-#work05 {
-    background: url(../images/latest_work05.jpg) no-repeat;
-}
-
-#work06 {
-    background: url(../images/latest_work06.jpg) no-repeat;
-}
-
-#work07 {
-    background: url(../images/latest_work07.jpg) no-repeat;
-}
-
-#work08 {
-    background: url(../images/latest_work08.jpg) no-repeat;
-}
-
-#work09 {
-    background: url(../images/latest_work09.jpg) no-repeat;
-}
-
-#work10 {
-    background: url(../images/latest_work10.jpg) no-repeat;
-}
-
-#work11 {
-    background: url(../images/latest_work11.jpg) no-repeat;
-}
-
-#work12 {
-    background: url(../images/latest_work12.jpg) no-repeat;
-}
-
-#work13 {
-    background: url(../images/latest_work13.jpg) no-repeat;
-}
-
-#work14 {
-    background: url(../images/latest_work14.jpg) no-repeat;
-}
-
-#work15 {
-    background: url(../images/latest_work15.jpg) no-repeat;
-}
-
-#work16 {
-    background: url(../images/latest_work16.jpg) no-repeat;
 }
 
 
