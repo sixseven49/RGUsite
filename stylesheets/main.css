@@ -53,8 +53,7 @@ h1 a {
     margin: 25px 0 10px 0;
 }
 
-
-.first_list {
+.navList {
     float: left;
     margin: 0 14px;
 }
@@ -71,15 +70,15 @@ h1 a {
     border-top: 5px solid #960089;
 }
 
-.with_dropdown {
+.with_dropDown {
     position: relative;
 }
 
-.with_dropdown li a {
+.with_dropDown li a {
     display: block;
 }
 
-.with_dropdown ul {
+.with_dropDown ul {
     background: #fff;
     border-bottom: 5px solid #960089;
     padding: 12px 0;
@@ -89,16 +88,16 @@ h1 a {
     width: 197px;
 }
 
-.first_list:hover.first_list ul {
+.navList:hover.navList ul {
     visibility: visible;
 }
 
-.with_dropdown .main_menu_first {
+.with_dropDown .main_menu_first {
     background: url(../images/arrow_down.png) no-repeat 92%;
     padding-right: 23px;
 }
 
-.with_dropdown:hover .main_menu_first {
+.with_dropDown:hover .main_menu_first {
     background: #fff url(../images/arrow_down.png) no-repeat 92%;
     border-top: 5px solid #960089;
     color: #960089;
@@ -359,13 +358,18 @@ h1 a {
 #tables tr:nth-child(even) {
     background-color: #dddddd;
 }
-#testimonials {
+#rightSideDiv {
     text-align: inherit;
     clear: left;
     width: 450px;
 }
+.rightImage {
+    width:400px;
+    height:400px;
+    border: medium #960089"
+}
 
-#testimonials h3 {
+#rightSideDiv h3 {
     background: url(../images/speechcloud_icon.png) no-repeat left;
     font-size: 15px;
     font-weight: bold;
@@ -374,13 +378,13 @@ h1 a {
     padding: 5px 0 0 38px;
 }
 
-#testimonials p {
+#rightSideDiv p {
     color: #363636;
     font-size: 14px;
     line-height: 24px;
 }
 
-.testimonial_name {
+.Right_name {
     font-style: italic;
     font-weight: bold;
 }
@@ -692,6 +696,7 @@ a#pagination_next:hover, a#pagination_end:hover {
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 0 21px 0;
+    color: #960089;
 }
 
 .footer_info {

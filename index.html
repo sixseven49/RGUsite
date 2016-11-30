@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -19,11 +19,11 @@
 
             <ul>
                 <!-- home -->
-                <li class="first_list"><a href="index.html" class="main_menu_first main_current">home</a></li>
+                <li class="navList"><a href="index.html" class="main_menu_first main_current">home</a></li>
                 <!-- About us -->
-                <li class="first_list"><a href="aboutUs.html" class="main_menu_first">About Us</a></li>
+                <li class="navList"><a href="aboutUs.html" class="main_menu_first">About Us</a></li>
               <!-- This is the whole drop down menu for courses-->
-                <li class="first_list with_dropdown">
+                <li class="navList with_dropDown">
                     <a href="courses.html"  class="main_menu_first">Courses</a>
                     <ul>
                         <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/undergraduate" class="main_menu_second">Undergraduate </a></li>
@@ -34,10 +34,21 @@
                     </ul>
                 </li>
 
-                <li class="first_list"><a href="#" class="main_menu_first">News</a></li>
-                <li class="first_list"><a href="contact.html" class="main_menu_first">Contact us</a></li>
+                <li class="navList"><a href="#" class="main_menu_first">News</a></li>
+                <li class="navList"><a href="contact.html" class="main_menu_first">Contact us</a></li>
             </ul>
-        
+            <!-- Search bar: and searches through google  -->
+            <div id="searchBar">
+                <form name="cse" id="searchbox_demo" action="https://www.google.com">
+                    <input type="hidden" name="cref" value="" />
+                    <input type="hidden" name="ie" value="utf-8" />
+                    <input type="hidden" name="hl" value="" />
+                    <input name="q" type="text" size="40" />
+                    <input type="submit" name="sa" value="Search"/>
+                </form>
+                <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+            </div>
+
         </div> <!-- END #main_menu -->
     
         </div> <!-- END .container -->
@@ -89,7 +100,7 @@
                 <div id ="tables">
                     <table>
                         <tr>
-                            <th>Recent Upcoming Events /th>
+                            <th>Recent Upcoming Events </th>
                         </tr>
                         <tr>
                             <td><img src="images/Pathway%20eevnt.jpg" style="width:150px;height:100px;"><br>
@@ -112,13 +123,18 @@
                 </div>
 
             </div>
-            <div id="testimonials">
+            <div id="rightSideDiv">
 
                 <h3>News</h3>
-                <img src="images/news1.jpg" style="width:400px;height:400px;" alt="banner1" />
+
+                    <img src="images/news1.jpg" alt="banner1"  style="width:100%"/>
+
+
+
+
                 <p>Dieter Holvoet, Florian Peyron, Alexa Noel and Brent De Hauwere from RGU’s School of Computing Science and Digital Media travelled to Edinburgh this month to take part in the Scottish Universities’ Cyber Security Challenge. The Cyber Security Challenge is a series of national competitions, learning programmes, and networking initiatives designed to identify and inspire more EU citizens resident […]
                     <br />
-                    <span class="testimonial_name">By Ian Harris on October 19th, 2016</span>
+                    <span class="Right_name">By Ian Harris on October 19th, 2016</span>
 
                     <a href="http://www.comp.rgu.ac.uk/2016/10/rgu-computing-students-compete-in-cyber-security-challenge/">
                         <img src="images/read-more.png" style="width:100px;height:50px; float: right;" >
@@ -200,10 +216,10 @@
 
 
 
-
+            </div>
         </div> <!-- END .container -->
         
     </div> <!-- END #footer -->
-    
+
 </body>
 </html>
