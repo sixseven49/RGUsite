@@ -218,7 +218,8 @@ h1 a {
 .mid_content_info {
     float: left;
     font-size: 13px;
-    margin-top: 60px;
+    margin-top: 20px;
+    margin-left: 70px;
     width: 220px;
 }
 
@@ -249,9 +250,10 @@ h1 a {
 }
 
 .mid_content_space {
-    margin-right: 40px;
+    margin-right: 0px;
     padding-left: 10px;
     background-color: #d9d9d9;
+    margin-bottom: 40px;
     border-style: solid;
     border-color: #960089;
 }
