@@ -709,11 +709,18 @@ a#pagination_next:hover, a#pagination_end:hover {
 }
 
 #footer_about {
-    width: 238px;
+    padding: 12px;
+    background-color: #c9c1d1;
+    width: 250px;
 }
 
 #footer_about p, #footer_contact p {
     line-height: 17px;
+}
+
+#footer_browse{
+    padding: 12px;
+    background-color: #c9c1d1;
 }
 
 #footer_explore li, #footer_browse li {
@@ -726,6 +733,16 @@ a#pagination_next:hover, a#pagination_end:hover {
 
 #footer_explore li a:hover, #footer_browse li a:hover {
     color: #2aacc8;
+}
+
+#footer_explore{
+    background-color: #c9c1d1;
+    padding: 12px;
+}
+
+#footer_contact{
+    padding: 12px;
+    background-color: #c9c1d1;
 }
 
 #footer_connect {
