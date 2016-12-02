@@ -250,24 +250,38 @@ h1 a {
 
 .mid_content_space {
     margin-right: 40px;
+    padding-left: 10px;
+    background-color: #d9d9d9;
+    border-style: solid;
+    border-color: #960089;
 }
 
-#clean {
+#gen {
     background: url(../images/people_icon.png) no-repeat left;
     border: #960089;
 }
 
-#responsive {
+#undergrad {
     background: url(../images/people_icon.png) no-repeat left;
     border: #960089;
 }
 
-#fully {
+#postgrad {
     background: url(../images/people_icon.png) no-repeat left;
     border: #960089;
 }
 
-#ready {
+#research {
+    background: url(../images/people_icon.png) no-repeat left;
+    border: #960089;
+}
+
+#consult {
+    background: url(../images/people_icon.png) no-repeat left;
+    border: #960089;
+}
+
+#inter {
     background: url(../images/people_icon.png) no-repeat left;
     border: #960089;
 }
