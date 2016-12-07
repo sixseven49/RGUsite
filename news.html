@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>RGU Computing- Courses</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+
+</head>
+<body>
+
+<div id="header">
+
+    <div class="container">
+        <!--logo-->
+        <h1><a href="index.html">Logo</a></h1>
+
+        <div id="main_menu">
+
+            <ul>
+                <!-- home -->
+                <li class="navList"><a href="index.html" class="main_menu_first main_current">home</a></li>
+                <!-- About us -->
+                <li class="navList"><a href="aboutUs.html" class="main_menu_first">About Us</a></li>
+                <!-- courses-->
+                <li class="navList with_dropDown">
+                    <a href="courses.html"  class="main_menu_first">Courses</a>
+                    <ul><!--The drop down menu for courses -->
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/undergraduate" class="main_menu_second">Undergraduate </a></li>
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/postgraduate" class="main_menu_second">Postgraduate</a></li>
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/research/graduate-school/applying-for-a-research-degree/funded-studentship-opportunities" class="main_menu_second">Research</a></li>
+                        <li class="second_list second_list_border"><a href="http://www.rgu.ac.uk/areas-of-study/subjects/computing/study-options/part-time-learning" class="main_menu_second">Part Time</a></li>
+                        <li class="second_list"><a href="http://www.rgu.ac.uk/computingshortcourses" class="main_menu_second">Short courses</a></li>
+                    </ul>
+                </li>
+                <!-- news-->
+                <li class="navList"><a href="#" class="main_menu_first">News</a></li>
+                <!-- contact us -->
+                <li class="navList"><a href="contact.html" class="main_menu_first">Contact us</a></li>
+            </ul>
+            <!-- Search bar: and searches through google  -->
+            <div id="searchBar">
+                <form name="cse" id="searchbox_demo" action="https://www.google.com">
+                    <input type="hidden" name="cref" value="" />
+                    <input type="hidden" name="ie" value="utf-8" />
+                    <input type="hidden" name="hl" value="" />
+                    <input name="q" type="text" size="40" />
+                    <input type="submit" name="sa" value="Search"/>
+                </form>
+                <script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+            </div>
+
+
+        </div> <!-- END #main_menu -->
+    </div> <!-- END .container -->
+</div> <!-- END #header -->
+
+<div id="main_content">
+    <div id="slideshow_area">
+
+        <div class="container">
+
+            <div id="slideshow_container">
+
+                <div class="slideshow_pagination">
+                    <img class="mySlides" src="images/rguUni%20graduate.jpg" style="width:100%">
+                    <img class="mySlides" src="images/OpenDay.jpg" style="width:100%">
+                    <img class="mySlides" src="images/Top-UK-Uni-Large-Homepage-ODLb.jpg" style="width:100%">
+                    <img class="mySlides" src="images/Top-UK-Uni-Large-Homepage-UG-Get-Ahead.jpg" style="width:100%">
+                    <img class="mySlides" src="images/Top-UK-Uni-Graduate-Employment-Hub-Computing.jpg" style="width:100%">
+
+                </div>
+
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+
+                        var x = document.getElementsByClassName("mySlides");
+                        for (var i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}
+                        x[myIndex-1].style.display = "block";
+                        setTimeout(carousel, 3000); // Change image every 3 seconds
+                    }
+                </script>
+            </div> <!-- END #slideshow_container -->
+
+        </div> <!-- END .container -->
+
+    </div> <!-- END #slideshow_area -->
+    <div id="mid_content">
+        <div class="container">
+
+            <div class="courses courses_space ">
+                <img src="images/3by2.png">
+                <a href=""><h2> Undergraduate </h2> </a>
+                <!-- <h2 id="undergraduate">Postgraduate Enquiries</h2>-->
+                <!--<img src="images/male-with-computer-152.jpg" alt=""/>-->
+
+            </div>
+
+            <div class="articles ">
+
+                <img src="images/3by2.png">
+                <a href="" > <h2>Postgraduate </h2> </a>
+            </div>
+
+            <div class="courses courses_space ">
+
+                <img src="images/3by2.png">
+                <a href=""> <h2>Postgrad Research</h2> </a>
+
+
+            </div>
+
+            <div class="courses courses_space ">
+
+                <img src="images/3by2.png">
+                <a href=""><h2> Part-time Learning </h2></a>
+
+
+            </div>
+
+
+            <div class="courses courses_space ">
+
+                <img src="images/3by2.png">
+                <a href=""><h2> Distance Learning </h2></a>
+
+            </div>
+
+            <div class="courses courses_space ">
+
+                <img src="images/3by2.png">
+                <a href=""><h2> Short Courses</h2></a>
+
+
+            </div>
+
+        </div> <!-- END .container -->
+
+    </div> <!-- END #mid_content -->
+
+    <!--<div id="contact_area">
+
+
+
+
+    </div> <!-- END #contact_area -->
+
+</div> <!-- END #main_content -->
+
+<div id="footer">
+
+    <div class="container">
+
+        <div id="footer_about" class="footer_info">
+            <h4>about us</h4>
+            <p>The School of Computing Science and Digital Media – Robert Gordon University in Aberdeen,
+                Scotland has an excellent reputation for its innovative and practical approaches to teaching
+                and learning. This site contains news and events happening around and about the School. </p>
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_explore" class="footer_info">
+
+            <h4>explore</h4>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_browse" class="footer_info">
+
+            <h4>browse</h4>
+            <ul>
+                <li><a href="http://www.rgu.ac.uk/about/schools-and-departments/school-of-computing-science-and-digital-media/staff/all-staff">staff</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="http://www.comp.rgu.ac.uk/category/talent-exchange/">Talent Exchange</a></li>
+                <li><a href="http://www.comp.rgu.ac.uk/privacy/">privacy policy</a></li>
+            </ul>
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_contact" class="footer_info">
+
+            <h4>contact us</h4>
+            <p><span class="bold_text">Sir Ian Wood Building</span>
+                <br />
+                Garthdee Road
+                <br />
+                Aberdeen
+                <br />
+                <br />
+                Tel: +44(0)1224 262700 </p>
+
+
+        </div> <!-- END #footer_about -->
+
+        <div id="footer_connect" class="footer_info">
+
+            <h4>connect with us</h4>
+
+            <ul>
+                <li><a href="#" id="facebook" title="Facebook">Facebook</a></li>
+                <li><a href="#" id="linkedin" title="LinkedIn">LinkedIn</a></li>
+            </ul>
+
+        </div> <!-- END #footer_about -->
+
+    </div> <!-- END .container -->
+
+</div> <!-- END #footer -->
+
+</body>
+</html>
