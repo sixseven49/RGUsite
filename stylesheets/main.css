@@ -23,7 +23,7 @@ body {
 /* ----- Header Styling ----- */
 
 #header {
-    background: #e8ebf1;
+    background: #bfc1c6 ;
     height: 150px;
 }
 
@@ -139,9 +139,13 @@ h1 a {
     width: 253px;
     float: left;
     font-size: 13px;
-    margin: 15px;
-    padding: 25px 20px 12px 26px;
-    background-color: #960089;
+    margin: 10px;
+    padding: 25px 20px 15px 25px;
+    background-color: #c9c1d1;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #960089;
 }
 
 .courses  h2 {
@@ -149,7 +153,7 @@ h1 a {
     font-weight: bold;
     height: 335px;
     padding:25px 0 0 0;
-    color: white;
+    color: #960089;
     text-align: right;
 }
 
