@@ -589,7 +589,7 @@ a#pagination_next:hover, a#pagination_end:hover {
         float: left;
         padding: 25px 20px 12px 25px;
         background-color: #c9c1d1;
-        border-width: 5px;
+        border-width: 2px;
         border-style: solid;
         border-radius: 10px;
         border-color: #960089;
@@ -632,7 +632,7 @@ a#pagination_next:hover, a#pagination_end:hover {
 /* ----- Contact Content Styling ----- */
 
 #contact_area {
-   background: url(../images/banner_shadow.png) repeat-x;
+    background: url(../images/banner_shadow.png) repeat-x;
     border-top: 1px solid #ffffff;
     padding: 38px;
     padding-bottom: 40px;
