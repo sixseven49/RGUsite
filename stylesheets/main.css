@@ -135,12 +135,17 @@ h1 a {
 
 .courses {
 
-    height: 215px;
-    width: 253px;
+    height: 230px;
+    width: 280px;
     float: left;
     font-size: 13px;
-    margin: 10px;
-    padding: 25px 20px 15px 25px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-top:15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 0;
     background-color: #c9c1d1;
     border-width: 2px;
     border-style: solid;
@@ -154,7 +159,7 @@ h1 a {
     height: 335px;
     padding:25px 0 0 0;
     color: #960089;
-    text-align: right;
+    float: right;
 }
 
 .courses  p {
@@ -173,6 +178,12 @@ h1 a {
 
 .courses  a:hover {
     text-decoration: underline;
+}
+#courseimg{
+    width: 270px;
+    height: 180px;
+    float: top, left;
+
 }
 
 
@@ -225,7 +236,7 @@ h1 a {
     margin-top: 20px;
     margin-left: 70px;
     width: 220px;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
     border-radius: 10px;
     border-color: #960089;
@@ -352,7 +363,7 @@ h1 a {
 
 #events {
     margin: 19px 0 19px 0;
-    padding: 30px;
+    //padding: 30px;
     float: right;
     width: 440px;
 }
@@ -414,8 +425,8 @@ h1 a {
 }
 
 #AboutUs {
-    float: left;
-    clear: left;
+    float: right;
+    clear: right;
     width: 400px;
 
 }
@@ -433,16 +444,11 @@ h1 a {
     width: 480px;
 }
 
-#video{
-    float: left;
-    float: bottom;
-}
-
 #twitter {
     margin-top: 15px;
-    margin-left: 100px;
-    clear: right;
+    clear: left;
     width: 560px;
+    background: #ff6af8;
 
 }
 
@@ -602,7 +608,7 @@ a#pagination_next:hover, a#pagination_end:hover {
 
     #article1 {
         margin-top: 30px;
-        margin-left: 80px;
+        margin-left: 30px;
     }
 
     #article2 {
@@ -613,7 +619,7 @@ a#pagination_next:hover, a#pagination_end:hover {
     #article3 {
         margin-top: 30px;
         margin-bottom: 30px;
-        margin-left: 80px;
+        margin-left: 30px;
     }
 
     #article4 {
@@ -680,7 +686,7 @@ a#pagination_next:hover, a#pagination_end:hover {
 
 #location_map {
     background: #e8fcfe;
-    border: 1px solid #960089;
+    border: 2px solid #960089;
     margin: 0 20px 36px 0;
     padding: 20px;
 }
