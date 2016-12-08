@@ -225,6 +225,10 @@ h1 a {
     margin-top: 20px;
     margin-left: 70px;
     width: 220px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #960089;
 }
 
 .mid_content_info h2 {
@@ -233,6 +237,7 @@ h1 a {
     height: 28px;
     margin-bottom: 15px;
     padding: 12px 0 0 59px;
+    color: #960089;
 }
 
 .mid_content_info p {
@@ -256,10 +261,9 @@ h1 a {
 .mid_content_space {
     margin-right: 0px;
     padding-left: 10px;
-    background-color: #d9d9d9;
+    background-color: #c9c1d1;
     margin-bottom: 40px;
-    border-style: solid;
-    border-color: #960089;
+
 }
 
 #gen {
@@ -585,6 +589,10 @@ a#pagination_next:hover, a#pagination_end:hover {
         float: left;
         padding: 25px 20px 12px 25px;
         background-color: #c9c1d1;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #960089;
     }
 
     #article1 {
